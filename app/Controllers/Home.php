@@ -8,4 +8,8 @@ class Home extends BaseController
     {
         return view('domovskaStranka');
     }
+    public function ctverec()
+    {
+        return view('ctverec');
+    }
 }

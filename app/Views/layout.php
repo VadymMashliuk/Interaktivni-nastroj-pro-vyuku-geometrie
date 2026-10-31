@@ -10,7 +10,7 @@
         <div class="container-fluid">
             <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav me-auto">
-                    <a class="nav-link" href="#">Čtverec</a>
+                    <a class="nav-link" href="<?= base_url('ctverec') ?>">Čtverec</a>
                     <a class="nav-link" href="#">Obdélník</a>
                     <a class="nav-link" href="#">Trojúhelník</a>
                     <a class="nav-link" href="#">Kruh</a>
@@ -29,7 +29,9 @@
             </div>
         </div>
     </nav>
-    <?= $this->renderSection('obsah') ?>
+    <div class="container">
+        <?= $this->renderSection('obsah') ?>
+    </div>
     <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
