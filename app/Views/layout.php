@@ -33,5 +33,6 @@
         <?= $this->renderSection('obsah') ?>
     </div>
     <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="JavaScript šablona.js"></script>
 </body>
 </html>
