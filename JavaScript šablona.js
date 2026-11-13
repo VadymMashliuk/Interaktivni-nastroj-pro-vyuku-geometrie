@@ -1,10 +1,17 @@
-function vypocitat()
+function vypocitatCtverec()
 {
     const delkaStrany = Number(document.getElementById("delkaStrany").value);
-    const plocha = delkaStrany ** 2;
-    const obvod = delkaStrany * 4;
-    const uhlopricka = delkaStrany * 1.41421;
-    document.getElementById("plocha").textContent = plocha;
-    document.getElementById("obvod").textContent = obvod;
-    document.getElementById("uhlopricka").textContent = uhlopricka;
+    const plochaCtverce = delkaStrany ** 2;
+    const obvodCtverce = delkaStrany * 4;
+    const uhloprickaCtverce = delkaStrany * 1.41421;
+    document.getElementById("plochaCtverce").textContent = plochaCtverce;
+    document.getElementById("obvodCtverce").textContent = obvodCtverce;
+    document.getElementById("uhloprickaCtverce").textContent = uhloprickaCtverce;
+}
+function vypocitatObdelnik()
+{
+    const delkaStrany = Number(document.getElementById("delkaStrany").value);
+    const sirkaStrany = Number(document.getElementById("sirkaStrany").value);
+    const plochaObdelniku = delkaStrany * sirkaStrany;
+    document.getElementById("plochaObdelniku").textContent = plochaObdelniku;
 }

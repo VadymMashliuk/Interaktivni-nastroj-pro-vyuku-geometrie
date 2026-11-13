@@ -11,7 +11,7 @@
             <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav me-auto">
                     <a class="nav-link" href="<?= base_url('ctverec') ?>">Čtverec</a>
-                    <a class="nav-link" href="#">Obdélník</a>
+                    <a class="nav-link" href="<?= base_url('obdelnik') ?>">Obdélník</a>
                     <a class="nav-link" href="#">Trojúhelník</a>
                     <a class="nav-link" href="#">Kruh</a>
                     <a class="nav-link" href="#">Lichoběžník</a>

@@ -12,4 +12,8 @@ class Home extends BaseController
     {
         return view('ctverec');
     }
+    public function obdelnik()
+    {
+        return view('obdelnik');
+    }
 }

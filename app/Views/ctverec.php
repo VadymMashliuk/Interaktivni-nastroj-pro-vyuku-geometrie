@@ -4,11 +4,11 @@
 <h1 class="text-center">Čtverec</h1>
 Délka strany:
 <input type="number" class="form-control" id="delkaStrany" name="email" min="0" step="any">
-<button type="submit" class="btn btn-primary" onclick="vypocitat()">Vypočítat</button>
+<button type="submit" class="btn btn-primary" onclick="vypocitatCtverec()">Vypočítat</button>
 <br><img src="<?= base_url('Čtverec.png') ?>" alt="">
-<br>Plocha čtverce: <div id="plocha"></div>(S = a<sup>2</sup>)
-<br><br>Obvod čtverce: <div id="obvod"></div>(P = 4a)
-<br><br>Úhlopříčka čtverce: <div id="uhlopricka"></div>(d = a√2)
+<br>Plocha čtverce: <div id="plochaCtverce"></div>(S = a<sup>2</sup>)
+<br><br>Obvod čtverce: <div id="obvodCtverce"></div>(P = 4a)
+<br><br>Úhlopříčka čtverce: <div id="uhloprickaCtverce"></div>(d = a√2)
 <h2 class="text-center">Vstupní parametry</h2>
 <table class="table table-hover">
     <tr>
