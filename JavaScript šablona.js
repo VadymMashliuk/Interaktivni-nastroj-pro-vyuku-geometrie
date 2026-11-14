@@ -13,5 +13,9 @@ function vypocitatObdelnik()
     const delkaStrany = Number(document.getElementById("delkaStrany").value);
     const sirkaStrany = Number(document.getElementById("sirkaStrany").value);
     const plochaObdelniku = delkaStrany * sirkaStrany;
+    const obvodObdelniku = 2 * delkaStrany + 2 * sirkaStrany;
+    const uhloprickaObdelniku = Math.sqrt(delkaStrany ** 2 + sirkaStrany ** 2);
     document.getElementById("plochaObdelniku").textContent = plochaObdelniku;
+    document.getElementById("obvodObdelniku").textContent = obvodObdelniku;
+    document.getElementById("uhloprickaObdelniku").textContent = uhloprickaObdelniku;
 }
