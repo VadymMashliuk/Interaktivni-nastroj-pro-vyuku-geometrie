@@ -16,4 +16,8 @@ class Home extends BaseController
     {
         return view('obdelnik');
     }
+    public function kruh()
+    {
+        return view('kruh');
+    }
 }

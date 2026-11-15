@@ -13,7 +13,7 @@
                     <a class="nav-link" href="<?= base_url('ctverec') ?>">Čtverec</a>
                     <a class="nav-link" href="<?= base_url('obdelnik') ?>">Obdélník</a>
                     <a class="nav-link" href="#">Trojúhelník</a>
-                    <a class="nav-link" href="#">Kruh</a>
+                    <a class="nav-link" href="<?= base_url('kruh') ?>">Kruh</a>
                     <a class="nav-link" href="#">Lichoběžník</a>
                     <a class="nav-link" href="#">Rovnoběžník</a>
                     <a class="nav-link" href="#">Kosočtverec</a>

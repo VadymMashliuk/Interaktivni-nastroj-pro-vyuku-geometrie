@@ -6,3 +6,4 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 $routes->get('ctverec', 'Home::ctverec');
 $routes->get('obdelnik', 'Home::obdelnik');
+$routes->get('kruh', 'Home::kruh');

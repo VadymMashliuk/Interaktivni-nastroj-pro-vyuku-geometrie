@@ -19,3 +19,13 @@ function vypocitatObdelnik()
     document.getElementById("obvodObdelniku").textContent = obvodObdelniku;
     document.getElementById("uhloprickaObdelniku").textContent = uhloprickaObdelniku;
 }
+function vypocitatKruh()
+{
+    const polomer = Number(document.getElementById("polomer").value);
+    const plochaKruhu = 3.14159 * polomer ** 2;
+    const delkaKruhu = 2 * 3.14159 * polomer;
+    const prumerKruhu = 2 * polomer;
+    document.getElementById("plochaKruhu").textContent = plochaKruhu;
+    document.getElementById("delkaKruhu").textContent = delkaKruhu;
+    document.getElementById("prumerKruhu").textContent = prumerKruhu;
+}
