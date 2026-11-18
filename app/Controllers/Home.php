@@ -20,4 +20,8 @@ class Home extends BaseController
     {
         return view('kruh');
     }
+    public function lichobeznik()
+    {
+        return view('lichobeznik');
+    }
 }
