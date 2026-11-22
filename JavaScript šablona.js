@@ -29,3 +29,15 @@ function vypocitatKruh()
     document.getElementById("delkaKruhu").textContent = delkaKruhu;
     document.getElementById("prumerKruhu").textContent = prumerKruhu;
 }
+function vypocitatLichobeznik()
+{
+    const delkaVetsiZakladny = Number(document.getElementById("delkaVetsiZakladny").value);
+    const delkaMensiZakladny = Number(document.getElementById("delkaMensiZakladny").value);
+    const delkaRamena = Number(document.getElementById("delkaRamena").value);
+    const m = (delkaVetsiZakladny + delkaMensiZakladny) / 2;
+    const h = Math.sqrt(delkaRamena ** 2 - ((delkaVetsiZakladny - delkaMensiZakladny) / 2) ** 2);
+    const plochaLichobezniku = m * h;
+    const obvodLichobezniku = delkaVetsiZakladny + delkaMensiZakladny + delkaRamena * 2;
+    document.getElementById("plochaLichobezniku").textContent = plochaLichobezniku;
+    document.getElementById("obvodLichobezniku").textContent = obvodLichobezniku;
+}
