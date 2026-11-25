@@ -41,3 +41,17 @@ function vypocitatLichobeznik()
     document.getElementById("plochaLichobezniku").textContent = plochaLichobezniku;
     document.getElementById("obvodLichobezniku").textContent = obvodLichobezniku;
 }
+function vypocitatRovnobeznik()
+{
+    const delkaPrvniStrany = Number(document.getElementById("delkaPrvniStrany").value);
+    const delkaDruheStrany = Number(document.getElementById("delkaDruheStrany").value);
+    const uhelMeziStranami = Number(document.getElementById("uhelMeziStranami").value);
+    const plochaRovnobezniku = delkaPrvniStrany * delkaDruheStrany * Math.sin(uhelMeziStranami);
+    const obvodRovnobezniku = delkaPrvniStrany * 2 + delkaDruheStrany * 2;
+    const prvniUhloprickaRovnobezniku = Math.sqrt(delkaPrvniStrany ** 2 + delkaDruheStrany ** 2 + 2 * delkaPrvniStrany * delkaDruheStrany * Math.cos(uhelMeziStranami));
+    const druhaUhloprickaRovnobezniku = Math.sqrt(delkaPrvniStrany ** 2 + delkaDruheStrany ** 2 - 2 * delkaPrvniStrany * delkaDruheStrany * Math.cos(uhelMeziStranami));
+    document.getElementById("plochaRovnobezniku").textContent = plochaRovnobezniku;
+    document.getElementById("obvodRovnobezniku").textContent = obvodRovnobezniku;
+    document.getElementById("prvniUhloprickaRovnobezniku").textContent = prvniUhloprickaRovnobezniku;
+    document.getElementById("druhaUhloprickaRovnobezniku").textContent = druhaUhloprickaRovnobezniku;
+}

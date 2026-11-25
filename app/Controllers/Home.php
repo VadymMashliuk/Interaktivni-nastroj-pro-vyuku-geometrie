@@ -24,4 +24,8 @@ class Home extends BaseController
     {
         return view('lichobeznik');
     }
+    public function rovnobeznik()
+    {
+        return view('rovnobeznik');
+    }
 }

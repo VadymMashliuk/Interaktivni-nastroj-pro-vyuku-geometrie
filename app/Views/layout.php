@@ -15,7 +15,7 @@
                     <a class="nav-link" href="#">Trojúhelník</a>
                     <a class="nav-link" href="<?= base_url('kruh') ?>">Kruh</a>
                     <a class="nav-link" href="<?= base_url('lichobeznik') ?>">Lichoběžník</a>
-                    <a class="nav-link" href="#">Rovnoběžník</a>
+                    <a class="nav-link" href="<?= base_url('rovnobeznik') ?>">Rovnoběžník</a>
                     <a class="nav-link" href="#">Kosočtverec</a>
                     <a class="nav-link" href="#">Pravidelný mnohoúhelník</a>
                     <a class="nav-link" href="#">Krychle</a>
