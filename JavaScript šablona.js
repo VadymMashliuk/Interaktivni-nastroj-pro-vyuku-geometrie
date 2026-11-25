@@ -55,3 +55,16 @@ function vypocitatRovnobeznik()
     document.getElementById("prvniUhloprickaRovnobezniku").textContent = prvniUhloprickaRovnobezniku;
     document.getElementById("druhaUhloprickaRovnobezniku").textContent = druhaUhloprickaRovnobezniku;
 }
+function vypocitatKosoctverec()
+{
+    const delkaStrany = Number(document.getElementById("delkaStrany").value);
+    const uhelMeziStranami = Number(document.getElementById("uhelMeziStranami").value);
+    const plochaKosoctverce = delkaStrany ** 2 * Math.sin(uhelMeziStranami);
+    const obvodKosoctverce = 4 * delkaStrany;
+    const prvniUhloprickaKosoctverce = 2 * delkaStrany * Math.sin(uhelMeziStranami / 2);
+    const druhaUhloprickaKosoctverce = 2 * delkaStrany * Math.cos(uhelMeziStranami / 2);
+    document.getElementById("plochaKosoctverce").textContent = plochaKosoctverce;
+    document.getElementById("obvodKosoctverce").textContent = obvodKosoctverce;
+    document.getElementById("prvniUhloprickaKosoctverce").textContent = prvniUhloprickaKosoctverce;
+    document.getElementById("druhaUhloprickaKosoctverce").textContent = druhaUhloprickaKosoctverce;
+}

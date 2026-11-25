@@ -28,4 +28,8 @@ class Home extends BaseController
     {
         return view('rovnobeznik');
     }
+    public function kosoctverec()
+    {
+        return view('kosoctverec');
+    }
 }
