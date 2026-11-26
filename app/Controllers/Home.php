@@ -32,4 +32,8 @@ class Home extends BaseController
     {
         return view('kosoctverec');
     }
+    public function pravidelnyMnohouhelnik()
+    {
+        return view('pravidelnyMnohouhelnik');
+    }
 }

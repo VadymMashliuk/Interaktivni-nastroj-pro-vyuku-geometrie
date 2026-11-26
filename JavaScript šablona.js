@@ -68,3 +68,16 @@ function vypocitatKosoctverec()
     document.getElementById("prvniUhloprickaKosoctverce").textContent = prvniUhloprickaKosoctverce;
     document.getElementById("druhaUhloprickaKosoctverce").textContent = druhaUhloprickaKosoctverce;
 }
+function vypocitatPravidelnyMnohouhelnik()
+{
+    const delkaStrany = Number(document.getElementById("delkaStrany").value);
+    const plochaPravidelnehoMnohouhelniku = (5 * delkaStrany ** 2) / (4 * Math.tan(0.62832));
+    const obvodPravidelnehoMnohouhelniku = 5 * delkaStrany;
+    const R = delkaStrany / (2 * Math.sin(0.62832));
+    const prvniUhloprickaPravidelnehoMnohouhelniku = 2 * R * Math.sin(0.62832);
+    const druhaUhloprickaPravidelnehoMnohouhelniku = 2 * R * Math.sin(1.2566);
+    document.getElementById("plochaPravidelnehoMnohouhelniku").textContent = plochaPravidelnehoMnohouhelniku;
+    document.getElementById("obvodPravidelnehoMnohouhelniku").textContent = obvodPravidelnehoMnohouhelniku;
+    document.getElementById("prvniUhloprickaPravidelnehoMnohouhelniku").textContent = prvniUhloprickaPravidelnehoMnohouhelniku;
+    document.getElementById("druhaUhloprickaPravidelnehoMnohouhelniku").textContent = druhaUhloprickaPravidelnehoMnohouhelniku;
+}
