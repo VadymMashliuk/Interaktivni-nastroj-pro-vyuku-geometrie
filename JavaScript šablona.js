@@ -81,3 +81,8 @@ function vypocitatPravidelnyMnohouhelnik()
     document.getElementById("prvniUhloprickaPravidelnehoMnohouhelniku").textContent = prvniUhloprickaPravidelnehoMnohouhelniku;
     document.getElementById("druhaUhloprickaPravidelnehoMnohouhelniku").textContent = druhaUhloprickaPravidelnehoMnohouhelniku;
 }
+
+vypocitatKrychle()
+{
+    const delkaHrany = Number(document.getElementById("delkaHrany").value);
+}

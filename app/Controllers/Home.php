@@ -36,4 +36,8 @@ class Home extends BaseController
     {
         return view('pravidelnyMnohouhelnik');
     }
+    public function krychle()
+    {
+        return view('krychle');
+    }
 }

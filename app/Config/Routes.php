@@ -11,3 +11,4 @@ $routes->get('lichobeznik', 'Home::lichobeznik');
 $routes->get('rovnobeznik', 'Home::rovnobeznik');
 $routes->get('kosoctverec', 'Home::kosoctverec');
 $routes->get('pravidelnyMnohouhelnik', 'Home::pravidelnyMnohouhelnik');
+$routes->get('krychle', 'Home::krychle');

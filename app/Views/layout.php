@@ -18,7 +18,7 @@
                     <a class="nav-link" href="<?= base_url('rovnobeznik') ?>">Rovnoběžník</a>
                     <a class="nav-link" href="<?= base_url('kosoctverec') ?>">Kosočtverec</a>
                     <a class="nav-link" href="<?= base_url('pravidelnyMnohouhelnik') ?>">Pravidelný mnohoúhelník</a>
-                    <a class="nav-link" href="#">Krychle</a>
+                    <a class="nav-link" href="<?= base_url('krychle') ?>">Krychle</a>
                     <a class="nav-link" href="#">Obdélníkový rovnoběžnostěn</a>
                     <a class="nav-link" href="#">Válec</a>
                     <a class="nav-link" href="#">Kužel</a>
